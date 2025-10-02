@@ -3,9 +3,222 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Zhiyang Zhou - Academic Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello! I'm Zhiyang Zhou. </h1>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Zhiyang Zhou</a>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#research" class="nav-link">Research</a>
+                <a href="#publications" class="nav-link">Publications</a>
+                <a href="#teaching" class="nav-link">Teaching</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Zhiyang Zhou</h1>
+                    <h2>PhD Student / Researcher</h2>
+                    <p class="hero-description">
+                        Welcome to my academic homepage. I am passionate about [Your Research Area] 
+                        and currently pursuing my PhD at [Your University].
+                    </p>
+                    <div class="social-links">
+                        <a href="mailto:your.email@university.edu" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=YOUR_ID" class="social-link">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                        <a href="https://github.com/my-zzy" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/yourprofile" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://orcid.org/0000-0000-0000-0000" class="social-link">
+                            <i class="fab fa-orcid"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-placeholder">
+                        <i class="fas fa-user"></i>
+                        <p>Add Your Photo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am currently a PhD student at [Your University] in the Department of [Your Department]. 
+                        My research focuses on [Your Research Area], with particular interests in [Specific Topics].
+                    </p>
+                    <p>
+                        Prior to my PhD, I completed my [Master's/Bachelor's] degree at [Previous University] 
+                        where I worked on [Previous Research/Projects]. I am passionate about [Research Interests] 
+                        and their applications in [Application Areas].
+                    </p>
+                    <div class="education">
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <div class="education-degree">PhD in [Your Field]</div>
+                            <div class="education-school">[Your University]</div>
+                            <div class="education-year">[Year] - Present</div>
+                        </div>
+                        <div class="education-item">
+                            <div class="education-degree">[Master's/Bachelor's] in [Previous Field]</div>
+                            <div class="education-school">[Previous University]</div>
+                            <div class="education-year">[Start Year] - [End Year]</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Research Interests</h2>
+            <div class="research-areas">
+                <div class="research-item">
+                    <div class="research-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Research Area 1</h3>
+                    <p>Description of your first research area and what you're working on.</p>
+                </div>
+                <div class="research-item">
+                    <div class="research-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Research Area 2</h3>
+                    <p>Description of your second research area and current projects.</p>
+                </div>
+                <div class="research-item">
+                    <div class="research-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Research Area 3</h3>
+                    <p>Description of your third research area and methodologies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="section">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+            <div class="publications-list">
+                <div class="publication-item">
+                    <h3>Paper Title Here</h3>
+                    <p class="authors"><strong>Zhiyang Zhou</strong>, Co-Author Name, Another Author</p>
+                    <p class="venue">Conference/Journal Name, Year</p>
+                    <div class="publication-links">
+                        <a href="#" class="pub-link">Paper</a>
+                        <a href="#" class="pub-link">Code</a>
+                        <a href="#" class="pub-link">Slides</a>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <h3>Another Paper Title</h3>
+                    <p class="authors">First Author, <strong>Zhiyang Zhou</strong>, Last Author</p>
+                    <p class="venue">Journal Name, Year</p>
+                    <div class="publication-links">
+                        <a href="#" class="pub-link">Paper</a>
+                        <a href="#" class="pub-link">Dataset</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teaching Section -->
+    <section id="teaching" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Teaching</h2>
+            <div class="teaching-content">
+                <div class="teaching-item">
+                    <h3>Course Name 1</h3>
+                    <p class="role">Teaching Assistant | [Semester Year]</p>
+                    <p>Description of your teaching responsibilities and contributions.</p>
+                </div>
+                <div class="teaching-item">
+                    <h3>Course Name 2</h3>
+                    <p class="role">Instructor | [Semester Year]</p>
+                    <p>Description of the course you taught and student outcomes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>your.email@university.edu</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Office</h3>
+                            <p>Room XXX, Building Name<br>[University Name]<br>[City, State/Province]</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+1 (XXX) XXX-XXXX</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Zhiyang Zhou. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
